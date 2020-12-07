@@ -1,81 +1,81 @@
-# 深度学习在图像处理中的应用教程
+# Application tutorial of deep learning in image processing
 
-## 前言
-* 本教程是对本人研究生期间的研究内容进行整理总结，总结的同时也希望能够帮助更多的小伙伴。后期如果有学习到新的知识也会与大家一起分享。
-* 本教程会以视频的方式进行分享，教学流程如下：  
-1）介绍网络的结构与创新点  
-2）使用Pytorch进行网络的搭建与训练  
-3）使用Tensorflow（内部的keras模块）进行网络的搭建与训练 
+## Preface
+* This tutorial is a summary of my research during the postgraduate period. At the same time, I hope to help more friends. Later, if you learn new knowledge, I will share it with everyone.
+* This tutorial will be shared in the form of video. The teaching process is as follows: 
+1）Introduce the structure and innovation of the network
+2）Use Pytorch for network construction and training
+3）Use Tensorflow (the internal keras module) to build and train the network
 
 
-## 教程目录，点击跳转相应视频（后期会根据学习内容增加）
+## Tutorial directory, click to jump to the corresponding video (will be added later according to the learning content)
 
-* 图像分类
-  * LeNet（已完成）
-    * [Pytorch官方demo(Lenet)](https://www.bilibili.com/video/BV187411T7Ye)
-    * [Tensorflow2官方demo](https://www.bilibili.com/video/BV1n7411T7o6)
+* Image classification
+  * LeNet（completed）
+    * [Pytorch official demo(Lenet)](https://www.bilibili.com/video/BV187411T7Ye)
+    * [Tensorflow2 official demo](https://www.bilibili.com/video/BV1n7411T7o6)
 
-  * AlexNet（已完成）
-    * [AlexNet理论讲解](https://www.bilibili.com/video/BV1p7411T7Pc)
-    * [Pytorch搭建AlexNet](https://www.bilibili.com/video/BV1W7411T7qc)
-    * [Tensorflow2搭建Alexnet](https://www.bilibili.com/video/BV1s7411T7vs)
+  * AlexNet（completed）
+    * [AlexNet theory explanation](https://www.bilibili.com/video/BV1p7411T7Pc)
+    * [Pytorch builds AlexNet](https://www.bilibili.com/video/BV1W7411T7qc)
+    * [Tensorflow2 builds Alexnet](https://www.bilibili.com/video/BV1s7411T7vs)
   
-  * VggNet（已完成）
-    * [VggNet理论讲解](https://www.bilibili.com/video/BV1q7411T7Y6)
-    * [Pytorch搭建VGG网络](https://www.bilibili.com/video/BV1i7411T7ZN)
-    * [Tensorflow2搭建VGG网络](https://www.bilibili.com/video/BV1q7411T76b)
+  * VggNet（completed）
+    * [VggNet theory explanation](https://www.bilibili.com/video/BV1q7411T7Y6)
+    * [Pytorch builds VGG network](https://www.bilibili.com/video/BV1i7411T7ZN)
+    * [Tensorflow2 builds VGG network](https://www.bilibili.com/video/BV1q7411T76b)
   
-  * GoogLeNet（已完成）
-    * [GoogLeNet理论讲解](https://www.bilibili.com/video/BV1z7411T7ie)
-    * [Pytorch搭建GoogLeNet网络](https://www.bilibili.com/video/BV1r7411T7M5)
-    * [Tensorflow2搭建GoogLeNet网络](https://www.bilibili.com/video/BV1a7411T7Ht)
+  * GoogLeNet（completed）
+    * [GoogLeNet theory explanation](https://www.bilibili.com/video/BV1z7411T7ie)
+    * [Pytorch builds GoogLeNet network](https://www.bilibili.com/video/BV1r7411T7M5)
+    * [Tensorflow2 builds GoogLeNet network](https://www.bilibili.com/video/BV1a7411T7Ht)
   
-  * ResNet（已完成）
-    * [ResNet理论讲解](https://www.bilibili.com/video/BV1T7411T7wa)
-    * [Pytorch搭建ResNet网络](https://www.bilibili.com/video/BV14E411H7Uw)
-    * [Tensorflow2搭建ResNet网络](https://www.bilibili.com/video/BV1WE41177Ya)
+  * ResNet（completed）
+    * [ResNet theory explanation](https://www.bilibili.com/video/BV1T7411T7wa)
+    * [Pytorch builds ResNet network](https://www.bilibili.com/video/BV14E411H7Uw)
+    * [Tensorflow2 builds ResNet network](https://www.bilibili.com/video/BV1WE41177Ya)
   
-  * MobileNet（已完成）
-    * [MobileNet理论讲解](https://www.bilibili.com/video/BV1yE411p7L7)
-    * [Pytorch搭建MobileNetV2网络](https://www.bilibili.com/video/BV1qE411T7qZ)
-    * [Tensorflow2搭建MobileNetV2网络](https://www.bilibili.com/video/BV1NE411K7tX)
+  * MobileNet（completed）
+    * [MobileNet theory explanation](https://www.bilibili.com/video/BV1yE411p7L7)
+    * [Pytorch builds MobileNetV2 network](https://www.bilibili.com/video/BV1qE411T7qZ)
+    * [Tensorflow2 builds MobileNetV2 network](https://www.bilibili.com/video/BV1NE411K7tX)
   
-  * ShuffleNet (准备中)
+  * ShuffleNet (preparing)
 
-* 目标检测篇
-  * Faster-RCNN/FPN（进行中）
-    * [Faster-RCNN理论讲解](https://www.bilibili.com/video/BV1af4y1m7iL)
-    * [Faster-RCNN源码解析(Pytorch)](https://www.bilibili.com/video/BV1of4y1m7nj)
+* Target detection
+  * Faster-RCNN/FPN（processing）
+    * [Faster-RCNN theory explanation](https://www.bilibili.com/video/BV1af4y1m7iL)
+    * [Faster-RCNN source code analysis(Pytorch)](https://www.bilibili.com/video/BV1of4y1m7nj)
   
-  * SSD/RetinaNet (进行中)
-    * [SSD理论讲解](https://www.bilibili.com/video/BV1fT4y1L7Gi)
-    * [SSD源码解析(Pytorch)](https://www.bilibili.com/video/BV1vK411H771)
+  * SSD/RetinaNet (processing)
+    * [SSD theory explanation](https://www.bilibili.com/video/BV1fT4y1L7Gi)
+    * [SSD source code analysis(Pytorch)](https://www.bilibili.com/video/BV1vK411H771)
   
-  * YOLOv3 SPP (进行中)
-    * [YOLO系列理论讲解](https://www.bilibili.com/video/BV1yi4y1g7ro)
-    * [YOLOv3 SPP源码解析(Pytorch版)](https://www.bilibili.com/video/BV1t54y1C7ra)
+  * YOLOv3 SPP (processing)
+    * [YOLO series theory explanation](https://www.bilibili.com/video/BV1yi4y1g7ro)
+    * [YOLOv3 SPP source code analysis(Pytorch version)](https://www.bilibili.com/video/BV1t54y1C7ra)
 
-* 目标分割
+* Target segmentation
 
-**[更多相关视频请进入我的bilibili频道查看](https://space.bilibili.com/18161609/channel/index)**
+**[For more related videos, please enter my bilibili channel to view](https://space.bilibili.com/18161609/channel/index)**
 
 ---
 
-## 所需环境
-* Anaconda3（建议使用）
+## Required environment
+* Anaconda3（Recommended to use）
 * python3.6 / 3.7
 * pycharm (IDE)
 * pytorch 1.6 (pip package)
 * torchvision 0.7.0 (pip package)
 * tensorflow 2.2 (pip package)
 
-[你可能遇到的问题](./summary_problem.md)     
+[Problems you may encounter](./summary_problem.md)     
 
-如果有什么问题，也可以到我的CSDN中一起讨论。   
+If you have any questions, you can also discuss it in my CSDN。   
 [https://blog.csdn.net/qq_37541097/article/details/103482003](https://blog.csdn.net/qq_37541097/article/details/103482003)
 
-我的bilibili频道：
+My bilibili channel：
 [https://space.bilibili.com/18161609/channel/index](https://space.bilibili.com/18161609/channel/index)
 
-我的优酷播单：
+My Youku playlist：
 [http://list.youku.com/albumlist/show/id_52338354](http://list.youku.com/albumlist/show/id_52338354)
